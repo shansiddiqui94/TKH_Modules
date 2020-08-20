@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="header">
+            <h2 style="margin:5px">To Do List</h2>
+            <input type="text" id="myInput" placeholder="Add Contents...">
+            <span onclick="newElement()
+            " class="addBtn">+</span>
+        </div>
+        <ul id="myUL">
+            <li class="checked">Read a book on JavaScript </li>
+            <li>Walk to work</li>
+            <li>Pick up dry-cleaning</li>
+            <li class="checked">Buy 1 stick butter, 2 gallons of milk, 1 dozen eggs</li>
+            <li>Create JavaScript To-Do-List</li>
+            <li>Drink More Water</li>
+            <li>Throw out Trash</li>
+        </ul>
+        <button type="button" id="clear-list" onclick="removeAll()">Clear Items</button>
+        <script type="text/javascript" src="main.js"></script>
+        <div class="footer">
+            2020 Shan Siddiqui &copy;
+        </div>
+    </div>
+</body>
